@@ -1,0 +1,8 @@
+{
+  "name": "mysticshop",
+  "version": "1.0.0",
+  "description": "eshop",
+  "main": "index.js",
+  "author": "jakub",
+  "license": "MIT"
+}

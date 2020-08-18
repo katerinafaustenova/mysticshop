@@ -1,5 +1,37 @@
+body : {
+  background-color: #f8f9fa!important;
+}
+
 .card-img-top {
   height: auto;
   width: 200px;
   margin: 0 auto;
+}
+
+
+
+/* HEADER TOP */
+.headerWrapper {
+  background-color: rgb(145, 145, 145);
+}
+
+.headerWrapper a {
+  color: black;
+}
+
+.headerTop {
+  font-size: 13px;
+  color: #fff;
+}
+
+.headerTop a {
+  padding: 0.2rem 1rem;
+}
+
+.navMidle {
+  padding: 0 0;
+}
+
+.headerBottom a {
+  padding: 0.2rem 1rem;
 }

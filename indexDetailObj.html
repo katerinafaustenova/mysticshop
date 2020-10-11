@@ -34,14 +34,80 @@
         <div class="col-12">
           <a class="cartPageLink" href="#"> Zpět </a>
           <h4 class="my-3">Objednávka č. 111111</h4>
-          <p>Datum</p>
-          <p>Stav</p>
-          <p>Sledování</p>
+          <span class="border border-dark">
+            <div>Datum: 1. 1. 2020</div>
+            <div>Stav: zaplacená</div>
+            <div>Sledování: odkaz xxxxxxxxxxx</div>
+          </span>
         </div>
       </div>
       <div class="row">
         <div class="col-8">
-          <ul class="list-group">
+          <h6>Zboží z katalogu</h6>
+          <table class="table table-sm">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col">Kód</th>
+                <th scope="col">Název položky</th>
+                <th scope="col">Počet ks</th>
+                <th scope="col">Cena za ks</th>
+                <th scope="col">Cena celkem</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">12345</th>
+                <td>Obal na karty</td>
+                <td>2 ks</td>
+                <td>55 Kč</td>
+                <td>110 Kč</td>
+              </tr>
+            </tbody>
+          </table>
+          <h6>Kusovky</h6>
+          <table class="table table-sm">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col">Kód</th>
+                <th scope="col">Název položky</th>
+                <th scope="col">Počet ks</th>
+                <th scope="col">Cena za ks</th>
+                <th scope="col">Cena celkem</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">12345</th>
+                <td>Karta xxxxxxx</td>
+                <td>1 ks</td>
+                <td>230 Kč</td>
+                <td>230 Kč</td>
+              </tr>
+            </tbody>
+          </table>
+          <h5>Souhrn</h5>
+          <table class="table table-sm">
+            <tbody>
+              <tr>
+                <th scope="row">Doprava</th>
+                <td>Zásilkova ČR</td>
+              </tr>
+              <tr>
+                <th scope="row">Platba</th>
+                <td>Kartou online</td>
+              </tr>
+              <tr>
+                <th scope="row">Celkem bez DPH</th>
+                <td>4 444 Kč</td>
+              </tr>
+              <tr>
+                <th scope="row">Celkem s DPH</th>
+                <td>5 023 Kč</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- <ul class="list-group">
             <li
               class="list-group-item d-flex justify-content-between lh-condensed"
             >
@@ -79,7 +145,7 @@
                 <small class="text-muted">s DPH</small>
               </div>
             </li>
-          </ul>
+          </ul> -->
         </div>
         <div class="col-4">
           <ul class="list-group">
@@ -107,23 +173,6 @@
               class="list-group-item d-flex justify-content-between lh-condensed"
             >
               <p>Stát</p>
-            </li>
-          </ul>
-          <ul class="list-group">
-            <li
-              class="list-group-item d-flex justify-content-between lh-condensed"
-            >
-              <h6>Doprava a platba:</h6>
-            </li>
-            <li
-              class="list-group-item d-flex justify-content-between lh-condensed"
-            >
-              <p>Zásilkova - ČR</p>
-            </li>
-            <li
-              class="list-group-item d-flex justify-content-between lh-condensed"
-            >
-              <p>Kartou online</p>
             </li>
           </ul>
         </div>

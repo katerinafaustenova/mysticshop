@@ -1,14 +1,13 @@
-body : {
-  background-color: #f8f9fa!important;
+body {
+  background-color: #f8f9fa !important;
 }
 /* nvm coment */
 
 .card-img-top {
   height: auto;
   width: 180px;
-  margin: 30px auto;
+  margin: 40px auto;
 }
-
 
 /* HEADER TOP */
 .headerWrapper {
